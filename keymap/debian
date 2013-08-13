@@ -1,0 +1,7 @@
+default xkb_keymap "default" {
+ xkb_keycodes  { include "evdev+aliases(qwerty)"       };
+ xkb_types     { include "complete"    };
+ xkb_compat    { include "complete"    };
+ xkb_symbols   { include "pc+inet(evdev)+tger(svorak-classic)"  };
+ xkb_geometry  { include "kinesis(model100)"        };
+};

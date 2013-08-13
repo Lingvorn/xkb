@@ -1,0 +1,22 @@
+partial alphanumeric_keys
+xkb_symbols "svorak-classic" {
+
+    name[Group1]= "Swedish (classic Dvorak-Svorak mix)";
+
+    include "us(dvorak-classic)"
+
+    key <AD01> { [     aring,      Aring ]	};
+    key <AD02> { [  adiaeresis,	Adiaeresis ]	};
+    key <AD03> { [ odiaeresis, Odiaeresis ]	};
+
+    key <AD11> { [     comma,  greater, dead_cedilla,  dead_ogonek ]	};
+
+    key <AB01> { [    period,   less, dead_abovedot ]	};
+    
+    // remapped to tab
+    key <PGUP> { [  apostrophe,	quotedbl, dead_acute, dead_diaeresis	] };
+    // remapped to caps
+    key <PGDN> { [  semicolon,	colon ] };
+
+    key <LSGT>  { [      slash,     question] };
+};
