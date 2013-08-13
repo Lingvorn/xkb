@@ -6,7 +6,7 @@ xkb_symbols "svorak-classic" {
     include "us(dvorak-classic)"
 
     key <AD01> { [     aring,      Aring ]	};
-    key <AD02> { [  adiaeresis,	Adiaeresis ]	};
+    key <AD02> { [  adiaeresis,	Adiaeresis, egrave, Egrave ]	};
     key <AD03> { [ odiaeresis, Odiaeresis ]	};
 
     key <AD11> { [     comma,  greater, dead_cedilla,  dead_ogonek ]	};
